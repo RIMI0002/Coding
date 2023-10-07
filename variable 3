@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+float a,b,c,d,e,f;
+  printf("ENTER TWO NUMBERS\n");
+  scanf("%f%f",&a,&b);
+c=a+b;
+d=a-b;
+e=a*b;
+f=a/b;
+  printf("ADISSION=%f\n",c);
+  printf("SUBSTRACTION=%f\n",d);
+  printf("MULTIPLICATION=%f\n",e);
+  printf("DIVISION=%f\n",f);
+}

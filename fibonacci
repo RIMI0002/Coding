@@ -1,0 +1,16 @@
+#include<stdio.h>
+int fibo(int limit,int n,int a){
+	if(limit!=0){
+	 a=a+n;
+		printf("%d,",a);
+		return fibo(--limit,++n,a);
+	}
+}
+int main(){
+	int  n=0;
+	int limit=0;
+	printf("Enter the term limit of fibonacci series:");
+	scanf("%d",&limit);
+	int a=0;
+	fibo(limit,n,a);
+}

@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main(){
+	struct distance{
+	int inches;
+	int feet;
+};struct distance a1,a2,s;
+printf("Enter the distance in feet:\n");
+scanf("%d\n %d\n",&a1.feet,&a2.feet);
+printf("Enter the distance in inches:\n");
+scanf("%d\n %d\n",&a1.inches,&a2.inches);
+s.feet=a1.feet+a2.feet;
+s.inches=a1.inches+a2.inches;
+if(s.inches>12){
+	s.feet++;
+	s.inches -=12;
+	printf("the value of feet:%d \n",a1,a2);
+	printf("the value of inches %d \n",a1,a2);
+}
+}
